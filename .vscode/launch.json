@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:bong-wallpaper}",
+            "name": "Debug BongWallpaper",
+            "target": "BongWallpaper",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug BongWallpaper"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:bong-wallpaper}",
+            "name": "Release BongWallpaper",
+            "target": "BongWallpaper",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release BongWallpaper"
+        }
+    ]
+}
